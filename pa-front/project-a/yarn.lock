@@ -326,6 +326,18 @@
     "@typescript-eslint/types" "6.7.2"
     eslint-visitor-keys "^3.4.1"
 
+"@vee-validate/i18n@^4.11.7":
+  version "4.11.7"
+  resolved "https://registry.yarnpkg.com/@vee-validate/i18n/-/i18n-4.11.7.tgz#002d8da968392a59198610cb8fe6bc966c7f8ebe"
+  integrity sha512-m648JC3fQTbKAr896UOdNbsGzqlf+F5q+7B44xl7Dd9GO9sr/+ELng00cz9sk0RU1dODoEKq4Md1mkywsTxg5w==
+
+"@vee-validate/rules@^4.11.7":
+  version "4.11.7"
+  resolved "https://registry.yarnpkg.com/@vee-validate/rules/-/rules-4.11.7.tgz#8ebad53022b40a0aaa6c90db985f4ca6bbb4a30d"
+  integrity sha512-XPsh+5f7DZmJQAI2AhCvBeDATve+zZt0q0194p0Wwk2MeqAo+vmThduesmiiUwQw1MUebKOuZcTjtujPcfB8cg==
+  dependencies:
+    vee-validate "4.11.7"
+
 "@vitejs/plugin-vue@^4.2.3":
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-4.3.4.tgz#a289dff38e01949fe7be581d5542cabaeb961dec"
@@ -1668,7 +1680,7 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vee-validate@^4.11.7:
+vee-validate@4.11.7, vee-validate@^4.11.7:
   version "4.11.7"
   resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.11.7.tgz#eb928ddfc9cf97bbca94cba0fcab3d17babccbea"
   integrity sha512-HWnZgOY02mPuAQheaVcKZwahC879YsGNRW4/kkjxeOJ3wu1oruEeomuk+ovCyxTPQoAl1WPHurVJKL1yPGd/WQ==

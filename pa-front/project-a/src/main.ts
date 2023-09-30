@@ -10,6 +10,21 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import '@mdi/font/css/materialdesignicons.css'
+
+// Vee-validate
+import { configure } from 'vee-validate';
+import { localize } from '@vee-validate/i18n';
+import ja from '@vee-validate/i18n/dist/locale/ja.json';
+
+// Vee-validate-config
+configure({
+  generateMessage: localize({
+    ja,
+  }),
+});
+localize('ja');
+
+// Vuetify-config
 const customTheme = {
   dark: false,
   colors: {
