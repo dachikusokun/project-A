@@ -17,4 +17,9 @@ export default defineConfig({
     }),
     vuetify,
   ],
+  resolve: {
+    alias: {
+      '@': '/src', // ここでエイリアスを設定
+    },
+  },
 })
